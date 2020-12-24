@@ -1,0 +1,5 @@
+name: expense_managers
+assigned_apps:
+  - expense
+label: 费用管理员
+type: permission_set
