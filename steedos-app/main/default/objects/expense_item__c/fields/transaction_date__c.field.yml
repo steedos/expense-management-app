@@ -1,0 +1,14 @@
+name: transaction_date__c
+filterable: true
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 发生日期
+omit: false
+readonly: false
+required: false
+searchable: true
+sort_no: 120
+sortable: true
+type: date

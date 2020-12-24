@@ -1,0 +1,24 @@
+name: recent
+columns:
+  - field: name
+    wrap: false
+  - field: expense_date__c
+    wrap: false
+  - field: total_amount__c
+    wrap: false
+  - field: vendor__c
+    wrap: false
+  - field: approval_status__c
+    wrap: false
+filter_fields:
+  - expense_date__c
+  - owner
+  - total_amount__c
+  - approval_status__c
+filter_scope: space
+filters: []
+label: 最近查看
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

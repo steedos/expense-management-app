@@ -1,0 +1,23 @@
+name: 费用
+code: expense
+description: 管理费用记录、费用审批及费用统计。
+icon_slds: news
+is_creator: true
+is_new_window: false
+is_use_ie: false
+is_use_iframe: false
+mobile: true
+mobile_objects:
+  - expense__c
+  - expense_item__c
+  - reports
+oauth2_enabled: false
+oauth2_logout_enabled: false
+objects:
+  - expense__c
+  - expense_item__c
+  - reports
+saml_enabled: false
+saml_logout_enabled: false
+sort: 9100
+visible: true

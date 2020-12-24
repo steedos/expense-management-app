@@ -1,0 +1,15 @@
+name: expense__c
+filterable: true
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 费用
+omit: false
+readonly: false
+reference_to: expense__c
+required: true
+searchable: true
+sort_no: 150
+sortable: true
+type: master_detail

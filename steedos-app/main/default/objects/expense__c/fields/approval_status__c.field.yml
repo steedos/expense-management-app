@@ -1,0 +1,25 @@
+name: approval_status__c
+defaultValue: Not Submitted
+filterable: true
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 审批状态
+multiple: false
+omit: false
+options:
+  - label: 待提交
+    value: Not Submitted
+  - label: 审批中
+    value: Submitted
+  - label: 未获准
+    value: Not Approved
+  - label: 已获准
+    value: Approved
+readonly: true
+required: false
+searchable: true
+sort_no: 140
+sortable: true
+type: select

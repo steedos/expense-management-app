@@ -1,0 +1,21 @@
+name: recent
+columns:
+  - field: name
+    wrap: false
+  - field: amount__c
+    wrap: false
+  - field: category__c
+    wrap: false
+  - field: transaction_date__c
+    wrap: false
+filter_fields:
+  - category__c
+  - transaction_date__c
+  - amount__c
+filter_scope: space
+filters: []
+label: 最近查看
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

@@ -1,0 +1,40 @@
+name: category__c
+filterable: true
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 类别
+multiple: false
+omit: false
+options:
+  - label: 交通
+    value: Communications
+  - label: 娱乐
+    value: Entertainment
+  - label: 服务
+    value: Fees
+  - label: 人力资源服务
+    value: HR Services
+  - label: 营销
+    value: Marketing
+  - label: 餐费
+    value: Meals
+  - label: 会议活动
+    value: Meetings and Events
+  - label: 其他
+    value: Other
+  - label: 房产设施
+    value: Real Estate & Facilities
+  - label: 技术
+    value: Technology
+  - label: 运输物流
+    value: Transportation
+  - label: 差旅费
+    value: Travel Expenses
+readonly: false
+required: false
+searchable: true
+sort_no: 130
+sortable: true
+type: select
