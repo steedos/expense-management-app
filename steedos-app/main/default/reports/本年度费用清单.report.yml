@@ -1,0 +1,21 @@
+name: 本年度费用清单
+charting: false
+columns:
+  - transaction_date__c
+  - category__c
+  - amount__c
+  - created_by.name
+counting: true
+data_source: odata
+filter_fields:
+  - field: transaction_date__c
+    required: false
+  - field: category__c
+    required: false
+  - field: created_by
+    required: false
+filter_scope: space
+grouping: true
+object_name: expense_item__c
+report_type: tabular
+totaling: true

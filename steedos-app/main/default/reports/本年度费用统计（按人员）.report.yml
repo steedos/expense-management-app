@@ -1,0 +1,34 @@
+name: 本年度费用统计（按人员）
+charting: false
+columns: []
+counting: true
+data_source: odata
+filter_fields:
+  - field: transaction_date__c
+    required: false
+  - field: category__c
+    required: false
+filter_scope: space
+filters:
+  - is_default: true
+    field: transaction_date__c
+    operation: between
+    value: this_year
+    is_required: false
+  - field: category__c
+    is_default: true
+    is_required: false
+grouping: true
+object_name: expense_item__c
+options:
+  sort: []
+  column_width:
+    - - created_by.name
+      - 100
+report_type: matrix
+rows:
+  - created_by.name
+totaling: true
+values:
+  - _id
+  - amount__c
