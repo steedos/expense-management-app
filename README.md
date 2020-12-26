@@ -35,12 +35,12 @@ Steedos Platform is a visual modeling and descriptive programming development to
 ## Project Structure
 
 ```sh
-expense-management-app
+project-management-app
 ├── steedos-app/main/default
 │   ├── applications
-│   │   └── expense.app.yml
+│   │   └── project.app.yml
 │   └── objects
-│       └──expense__c
+│       └──project__c
 │           ├── buttons
 │           │   └── print.button.yml
 │           │   └── print.button.js
@@ -57,8 +57,8 @@ expense-management-app
 │           ├── permissions
 │           │   └── user.permission.yml
 │           │   └── admin.permission.yml
-│           │   └── expense_manager.permission.yml
-│           └── expense.object.yml
+│           │   └── project_manager.permission.yml
+│           └── project.object.yml
 │           └──...
 ├── .env
 ├── .gitignore
@@ -71,11 +71,11 @@ expense-management-app
 
 ##  Quick Start
 
-The source code of the expense depends on nodejs environment. To use mongodb database, the corresponding running environment should be deployed first.
+The source code of the project depends on nodejs environment. To use mongodb database, the corresponding running environment should be deployed first.
 
   1. Start the database  
   2. Install dependent packages
-  3. Running expense
+  3. Running project
   4. Using browser access `http://127.0.0.1:5000/`    For the first time, the database is empty. You need to register an account and choose to create an enterprise.
 
 ## Keep in Contact
