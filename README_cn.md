@@ -45,12 +45,12 @@
 ## 项目目录
 
 ```sh
-project-management-app
+expense-management-app
 ├── steedos-app/main/default
 │   ├── applications
-│   │   └── project.app.yml
+│   │   └── expense.app.yml
 │   └── objects
-│       └── project__c
+│       └── expense__c
 │           ├── buttons
 │           │   └── print.button.yml
 │           │   └── print.button.js
@@ -67,8 +67,8 @@ project-management-app
 │           ├── permissions
 │           │   └── user.permission.yml
 │           │   └── admin.permission.yml
-│           │   └── project_manager.permission.yml
-│           └── project.object.yml
+│           │   └── expense_manager.permission.yml
+│           └── expense.object.yml
 │           └──...
 ├── .env
 ├── .gitignore
@@ -105,10 +105,10 @@ yarn start
 
 如果您有任何疑问或想与其他华炎魔方用户交谈，请[点击进入讨论](https://github.com/steedos/steedos-platform/discussions)或扫码添加以下联系方式与我们联系！
 ##### 开发人员微信群
-![开发者微信交流群](https://steedos.github.io/assets/github/project_management_app/cn/QR_wechat_developers.jpg)
+![开发者微信交流群](https://steedos.github.io/assets/github/expense_management_app/cn/QR_wechat_developers.jpg)
 
 ##### 商务咨询
-![商务咨询](https://steedos.github.io/assets/github/project_management_app/cn/business_consulting.jpg)
+![商务咨询](https://steedos.github.io/assets/github/expense_management_app/cn/business_consulting.jpg)
 
 ##### 微信公众号
 ![微信公众号](https://www.steedos.com/assets/github/platform/cn/public_number.jpg)
