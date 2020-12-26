@@ -35,12 +35,12 @@ Steedos Platform is a visual modeling and descriptive programming development to
 ## Project Structure
 
 ```sh
-project-management-app
+expense-management-app
 ├── steedos-app/main/default
 │   ├── applications
-│   │   └── project.app.yml
+│   │   └── expense.app.yml
 │   └── objects
-│       └──project__c
+│       └──expense__c
 │           ├── buttons
 │           │   └── print.button.yml
 │           │   └── print.button.js
@@ -57,8 +57,8 @@ project-management-app
 │           ├── permissions
 │           │   └── user.permission.yml
 │           │   └── admin.permission.yml
-│           │   └── project_manager.permission.yml
-│           └── project.object.yml
+│           │   └── expense_manager.permission.yml
+│           └── expense.object.yml
 │           └──...
 ├── .env
 ├── .gitignore
